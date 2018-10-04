@@ -1,0 +1,58 @@
+
+body{
+    background: linear-gradient(to right, #ff0066 0%, #ff99cc 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+div{
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+    height: 60%;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+input{
+    width: 98%;
+    height: 35px;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+h1{
+    margin-bottom: -20px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.x{
+    background-color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+
+.btncomplete{
+    border-radius: 5px;
+    background-color: white;
+    color: hotpink;
+    border-color: hotpink;
+}
+
+.add{
+    width: 98%;
+    border-radius: 5px;
+    background-color: hotpink;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+
+}
