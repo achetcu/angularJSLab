@@ -12,6 +12,25 @@
                         {task: 'Wash the car',
                         completed: true}
                     ];
+                
+            $ctrl.addTask = function(){
+                $ctrl.list.push({task: $ctrl.newItem, completed: false});
+                $ctrl.newItem = '';
+            };
+            $ctrl.completeTask = function (index) {
+                $ctrl.list[index].completed = true;
+
+            };
+            $ctrl.removeTask = function(index){
+                $ctrl.list.splice(index, 1);
+            }
+               
+
+
+        }
+
+        
+            
    
-}
+
     )};
